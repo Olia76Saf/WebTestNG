@@ -22,6 +22,7 @@ public class WebTest {
 
         Assert.assertEquals(actualResult,expectedResult);
 
+
         driver.close();
         driver.quit();
 
